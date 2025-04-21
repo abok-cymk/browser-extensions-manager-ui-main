@@ -10,7 +10,7 @@ const Navbar = () => {
       </a>
       <button
         onClick={() => setIsToggled(!isToggled)}
-        className="bg-neutral-200 rounded-lg p-1 cursor-pointer focus:ring-custom-red-700"
+        className="bg-neutral-200 rounded-lg p-1 cursor-pointer hover:border-2 hover:border-custom-red-700"
       >
         {isToggled ? <Sun className="text-yellow-600" /> : <Moon />}
       </button>

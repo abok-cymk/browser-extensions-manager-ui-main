@@ -5,7 +5,7 @@ const Tab = ({ tabTitle, onClick, isTabActive }) => {
     <button
       onClick={onClick}
       className={`
-         rounded-full text-sm px-4 py-1 cursor-pointer font-500 shadow outline outline-neutral-300 focus:ring-custom-red-700
+         rounded-full text-sm px-4 py-1 cursor-pointer font-500 shadow outline outline-neutral-300 hover:border-2 hover:border-custom-red-700
         ${
           isTabActive
             ? "bg-custom-red-500 hover:bg-custom-red-700 text-neutral-100 hover:text-neutral-50"

@@ -13,9 +13,10 @@ const Extenstions = ({ logo, name, description, isActive, handleRemove }) => {
           </div>
         </div>
         <div className="flex items-center justify-between">
-          <button 
-          onClick={() => handleRemove(name)}
-          className="text-xs font-500 bg-neutral-0 hover:bg-custom-red-700 hover:text-neutral-0 outline outline-neutral-200 focus:ring-custom-red-700 rounded-full cursor-pointer px-2 py-1">
+          <button
+            onClick={() => handleRemove(name)}
+            className="text-xs font-500 bg-neutral-0 hover:bg-custom-red-700 hover:text-neutral-0 outline outline-neutral-200 hover:border-2 hover:border-custom-red-700 rounded-full cursor-pointer px-2 py-1"
+          >
             Remove
           </button>
           {isActive == true ? (
