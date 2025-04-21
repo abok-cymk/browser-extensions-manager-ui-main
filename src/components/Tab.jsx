@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const Tab = ({ tabTitle, onClick, isTabActive }) => {
   return (
     <button
