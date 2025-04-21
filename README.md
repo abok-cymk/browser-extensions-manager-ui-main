@@ -49,10 +49,8 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```const Tab = ({ tabTitle, onClick, isTabActive }) => {
+const Tab = ({ tabTitle, onClick, isTabActive }) => {
   return (
     <button
       onClick={onClick}
