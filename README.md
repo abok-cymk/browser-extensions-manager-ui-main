@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/abok-cymk/browser-extensions-manager-ui-main]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/abok-cymk/browser-extensions-manager-ui-main
+- Live Site URL: https://browser-extensions-manager-ui-main-seven.vercel.app/
 
 ## My process
 
