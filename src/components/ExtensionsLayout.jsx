@@ -21,7 +21,7 @@ const ExtensionsLayout = () => {
     const filteredExtensions = handleFilterExtenstions();
   return (
     <div>
-      <div className="flex items-center justify-between mb-5">
+      <div className="flex-cols justify-center md:flex items-center md:justify-between mb-5">
         <h1 className='text-2xl font-700'>Extensions List</h1>
         <div className="flex items-center gap-2">
           <Tab tabTitle="All" onClick={() => setTab("All")} isTabActive={tab === "All"}/>
