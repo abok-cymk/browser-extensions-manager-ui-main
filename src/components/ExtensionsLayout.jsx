@@ -22,7 +22,7 @@ const ExtensionsLayout = () => {
   return (
     <div>
       <div className="flex-cols justify-self-center md:flex items-center md:justify-between mb-5">
-        <h1 className='text-2xl font-700 text-center md:text-left'>Extensions List</h1>
+        <h1 className='text-2xl font-700 text-center md:text-left mb-2 md:mb-0'>Extensions List</h1>
         <div className="flex items-center gap-2">
           <Tab tabTitle="All" onClick={() => setTab("All")} isTabActive={tab === "All"}/>
           <Tab tabTitle="Active" onClick={() => setTab("Active")} isTabActive={tab === "Active"}/>
