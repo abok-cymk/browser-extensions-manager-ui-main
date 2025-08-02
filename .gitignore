@@ -2,6 +2,8 @@
 *.sketch
 *.fig
 *.xd
+design/
+REFACTORING.md
 
 # Dependencies
 /node_modules

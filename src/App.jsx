@@ -1,14 +1,16 @@
-import React from 'react';
-import ExtensionsLayout from './components/ExtensionsLayout';
-import Navbar from './components/Navbar';
+import Navbar from "./components/Navbar";
+import ExtensionsList from "./components/ExtensionsList";
+import { BrowserExtensionsProvider } from "./context/BrowserExtensionsContext";
 
 const App = () => {
   return (
-    <div className='font-notoSans max-w-5xl mx-auto py-10 px-4'>
-      <Navbar />
-      <ExtensionsLayout />
-    </div>
+    <BrowserExtensionsProvider>
+      <main>
+        <Navbar />
+        <ExtensionsList />
+      </main>
+    </BrowserExtensionsProvider>
   );
-}
+};
 
 export default App;

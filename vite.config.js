@@ -3,5 +3,9 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-    plugins: [react(), tailwindcss(),],
-})
+  build: {
+    minify: true,
+  },
+  plugins: [react(), tailwindcss()],
+  base: "/browser-extensions-manager-ui-main",
+});
